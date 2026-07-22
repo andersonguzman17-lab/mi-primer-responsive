@@ -1,8 +1,6 @@
-let edad_usuario = 16;
+const boton = document.getElementById("btn-comprar");
 
-if ( edad_usuario >= 18 ){
-    console.log (" eres mayor de edad, puedes ingtesar");
+boton.addEventListener("click", function(){
 
-} else {
-    console.log (" eres menor de edad, no puedes ingresar");
-}
+    alert(" tu pedido a sido procesado con exito ");
+});
